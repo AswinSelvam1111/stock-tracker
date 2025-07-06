@@ -20,7 +20,7 @@ tableCreate = """
 """
 
 for stockname, xpath in zip(stockList, xpathList):
-    addValuesToTable(scrapeData(stockname, xpath), stockname)
+    addValuesToTable(scrapeData(stockname), stockname)
 
 
 option = input("""Please select which feature you would like to use:
