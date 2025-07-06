@@ -16,6 +16,7 @@ Take note that this project was developed and tested on **Python 3.13.3**.
 To install all the necessary libraries:
 
 ```bash
+pip install undetected-chromedriver
 pip install selenium
 pip install pandas
 pip install plotly
